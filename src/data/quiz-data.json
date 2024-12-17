@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Quel est le but principal du pattern Chain of Responsibility ?",
+      "options": {
+        "a": "Créer un point d'accès global à un objet",
+        "b": "Passer une requête à travers une chaîne d'objets pour décider de la traiter ou non",
+        "c": "Découpler l'interface utilisateur de la logique métier",
+        "d": "Produire une copie d'un objet"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "text": "Dans le Chain of Responsibility, que fait un objet si une requête ne peut pas être traitée ?",
+      "options": {
+        "a": "Il l'ignore",
+        "b": "Il transmet la requête à l'objet suivant dans la chaîne",
+        "c": "Il génère une exception",
+        "d": "Il retourne un message d'erreur"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "text": "Le pattern Visitor permet de :",
+      "options": {
+        "a": "Créer dynamiquement des objets compatibles",
+        "b": "Définir de nouveaux comportements sans modifier les classes des objets sur lesquels ils opèrent",
+        "c": "Restaurer un état antérieur d'un objet",
+        "d": "Répartir les responsabilités entre plusieurs classes"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 4,
+      "text": "Quel principe le Visitor suit-il ?",
+      "options": {
+        "a": "Responsabilité unique",
+        "b": "Ouvert/Fermé",
+        "c": "Les deux",
+        "d": "Aucun des deux"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "text": "Quel est le rôle principal du Memento ?",
+      "options": {
+        "a": "Assurer qu'une classe n'ait qu'une seule instance",
+        "b": "Sauvegarder et restaurer l'état d'un objet sans exposer ses détails internes",
+        "c": "Rendre un objet compatible avec une interface",
+        "d": "Ajouter dynamiquement des responsabilités à un objet"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 6,
+      "text": "Dans le Memento, qui est responsable de gérer l'historique des états ?",
+      "options": {
+        "a": "Le Memento lui-même",
+        "b": "Le Caretaker",
+        "c": "L'Originator",
+        "d": "Le Client"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 7,
+      "text": "Le GRASP 'Expert en Information' recommande :",
+      "options": {
+        "a": "D'attribuer des responsabilités à la classe qui possède les informations nécessaires",
+        "b": "De minimiser les dépendances entre les classes",
+        "c": "De toujours utiliser des objets intermédiaires",
+        "d": "De favoriser l'héritage pour réduire le couplage"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "id": 8,
+      "text": "Le GRASP 'Contrôleur' propose de :",
+      "options": {
+        "a": "Créer une classe intermédiaire pour traiter les requêtes utilisateur",
+        "b": "Gérer toutes les responsabilités dans le modèle",
+        "c": "Associer chaque responsabilité à une seule méthode",
+        "d": "Utiliser des structures arborescentes pour les objets"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "text": "Un DTO (Data Transfer Object) est utilisé pour :",
+      "options": {
+        "a": "Accéder aux données directement depuis une base de données",
+        "b": "Transférer des données entre différentes couches d'une application",
+        "c": "Appliquer un algorithme à des collections",
+        "d": "Créer des objets avec des états immuables"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 10,
+      "text": "Quelle est une caractéristique clé d'un DTO ?",
+      "options": {
+        "a": "Il contient uniquement des données, sans logique métier",
+        "b": "Il gère les relations entre les entités",
+        "c": "Il agit comme un proxy pour d'autres objets",
+        "d": "Il implémente les méthodes de sauvegarde"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "id": 11,
+      "text": "Le pattern DAO (Data Access Object) permet :",
+      "options": {
+        "a": "De séparer la logique métier de l'accès aux données",
+        "b": "De garantir un accès sécurisé aux données",
+        "c": "De synchroniser automatiquement les données entre plusieurs bases",
+        "d": "De créer dynamiquement des tables de base de données"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "id": 12,
+      "text": "Quel est un avantage clé d'un DAO ?",
+      "options": {
+        "a": "Il réduit le nombre de classes dans une application",
+        "b": "Il facilite le changement de source de données",
+        "c": "Il améliore les performances des requêtes",
+        "d": "Il rend les données immuables"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 13,
+      "text": "Dans le pattern MVC, le rôle du modèle est de :",
+      "options": {
+        "a": "Gérer les événements utilisateur",
+        "b": "Stocker et manipuler les données",
+        "c": "Afficher les données à l'utilisateur",
+        "d": "Coordonner les interactions entre les couches"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 14,
+      "text": "Dans le MVC, la vue est responsable de :",
+      "options": {
+        "a": "Traiter les entrées utilisateur",
+        "b": "Manipuler directement la base de données",
+        "c": "Afficher les données issues du modèle",
+        "d": "Contrôler les transitions entre les états"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "id": 15,
+      "text": "Quel principe est favorisé par le pattern MVC ?",
+      "options": {
+        "a": "Couplage fort",
+        "b": "Séparation des préoccupations",
+        "c": "Utilisation de classes statiques",
+        "d": "Héritage multiple"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 16,
+      "text": "Quel framework populaire suit le pattern MVC ?",
+      "options": {
+        "a": "React",
+        "b": "Laravel",
+        "c": "Spring Boot",
+        "d": "Angular"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 17,
+      "text": "Dans Chain of Responsibility, comment les objets sont-ils chaînés ?",
+      "options": {
+        "a": "Avec un tableau statique",
+        "b": "En utilisant un pointeur vers le suivant",
+        "c": "Par une classe intermédiaire",
+        "d": "Grâce à un singleton global"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 18,
+      "text": "Quel est un désavantage potentiel du Visitor ?",
+      "options": {
+        "a": "Il ne peut pas être combiné avec d'autres patterns",
+        "b": "Il nécessite une modification des visiteurs chaque fois qu'une classe est ajoutée",
+        "c": "Il réduit la flexibilité des classes visitées",
+        "d": "Il ne fonctionne qu'avec des collections"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "id": 19,
+      "text": "Quel objet dans le Memento connaît les détails de l'état sauvegardé ?",
+      "options": {
+        "a": "Le Client",
+        "b": "Le Memento",
+        "c": "Le Caretaker",
+        "d": "L'Originator"
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "id": 20,
+      "text": "Dans le MVC, le contrôleur est responsable de :",
+      "options": {
+        "a": "Sauvegarder les données",
+        "b": "Afficher les données",
+        "c": "Traiter les entrées utilisateur et mettre à jour le modèle",
+        "d": "Créer des connexions avec la base de données"
+      },
+      "correctAnswer": "c"
+    }
+  ]
+}
